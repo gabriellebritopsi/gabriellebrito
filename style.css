@@ -1,0 +1,253 @@
+
+
+/*Estilos gerais*/
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --white-color: #ffffff;
+  --orange-marinemos-color: #BA6F4D;/*antigo marrom-color*/
+  --orange-dark-color: #8E412E;
+  --green-light-color: #A2A182;
+  --green-dark-color: #687259;
+  --bege-color: #FFEBDC;
+
+
+  font-size: 62.5%; /*1rem = 10px */
+}
+
+
+@font-face{
+  font-family: 'comfortaa';
+  src: url(font/comfortaa/Comfortaa-Bold.ttf);
+  }
+  
+  body{
+    font-family: 'comfortaa', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--white-color);
+  }
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  }
+
+ h2{
+    font-size: 3rem;
+  }
+
+  .minilogorodape{
+    width: 101.67px;
+    height: 100.34px;
+  }
+  .minilogo{
+    width: 35.83px;
+    height: 35.34px;
+  }
+
+
+/*Fim dos estilos gerais 305 x 301*/
+
+
+/*Area cabeçalho*/
+#header{
+  height: 12rem;
+  background-color:var(--white-color); 
+}
+
+.navbar-brand{
+  margin-left: 5rem;
+}
+
+
+/*Botão do navbar*/
+#header button{
+  color: black;
+  border: solid 2px black;
+  margin-right: 3rem;
+  margin-top: 3.5rem;
+  background-color: var(--white-color);
+  }
+
+/*links do navbar*/
+#header a:hover{
+  color: var(--orange-dark-color);
+}
+
+
+.nav-link{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 2rem;
+  
+}
+
+.navbar-nav{
+  text-align: right;
+  margin-right: 4rem;
+ }
+
+/*Fim da Area cabeçalho*/
+
+
+/*Area Banner*/
+
+#banner{
+  width: 100%;
+  height: 42rem;
+  background-color:var(--orange-dark-color);
+}
+
+.titulobanner{
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.textobanner{
+  color: var(--bege-color);
+  margin-top: 8rem;
+  font-size: 1.8rem;
+}
+
+.imagembanner{
+  margin-top: 5rem;
+  border: solid 2px black;
+  border-radius: 25px;
+}
+
+.areafavicon{
+  margin-top:2rem;
+}
+
+.favicon{
+  margin-left: 2rem;
+}
+
+/*Fim da Area Banner*/
+
+
+
+/*Area Serviços*/
+#servicos{
+  margin-top: 2rem;
+  height: 40rem;
+  background-color: var(--orange-marinemos-color);
+}
+
+
+ul{
+  list-style-type: square;
+}
+
+/*Fim da area Serviços*/
+
+/*Inicio da area um pouco de mim*/
+#umpoucodemim{
+  margin-top: 2rem;
+  background-color: var(--bege-color);
+  height: 40rem;
+  color:var(--white-color);
+  
+}
+
+.imagemquemsoueu{
+  margin-top: 5rem;
+  border: solid 2px #001423;
+  border-radius: 25px;
+}
+
+.textoquemsoueu{
+  margin-top: 5rem; 
+  text-align: justify;
+  color: #001423;
+}
+.paragrafoquemsoueu{
+  text-indent: 3rem;
+}
+
+/*Fim da area quem sou eu*/
+
+/*Inicio da area projeto inclusão*/
+
+#projetoinclusao{
+  height: 47rem;
+  margin-top: 2rem;
+  background-color: var(--green-light-color);
+}
+.textoprojeto{
+  margin-top: 4rem;
+  text-align: justify;
+}
+.videoprojeto{
+  margin-top: 2rem;
+}
+
+.video{
+  width: 240px;
+  height: 427px;
+  border: solid 2px #001423;
+}
+
+
+/*Fim da area projeto inclusão*/
+
+/*Area footer*/
+
+#baseboard{
+  margin-top: 2rem;
+  height: 35rem;
+  background-color: var(--green-dark-color);
+  
+}
+
+
+/*Area de @media768px*/
+
+@media(max-width: 768px){
+  #banner{
+    width: 100%;
+    height: 76rem;
+    background-color:var(--orange-dark-color);
+  }
+
+  .video{
+    width: 200px;
+    height: 355.84px;
+    border: solid 2px #001423;
+  }
+
+}
+
+@media(max-width:992px){
+  #umpoucodemim{
+    margin-top: 2rem;
+   
+    height: 45rem;
+    color:var(--white-color);
+  
+  }
+
+  #servicos{
+    margin-top: 2rem;
+    height: 46rem;
+
+  }
+
+  #projetoinclusao{
+    height: 100rem;
+    margin-top: 2rem;
+    
+  }
+}
