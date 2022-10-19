@@ -96,10 +96,9 @@ a{
 
 .navbar-nav{
   text-align: right;
-  margin-right: 4rem;
  }
 
-/*Fim da Area cabeçalho*/
+/*Fim da Area cabeçalho */
 
 
 /*Area Banner*/
@@ -186,8 +185,11 @@ ul{
   margin-top: 2rem;
   background-color: var(--green-light-color);
 }
-.textoprojeto{
+.tituloprojeto{
   margin-top: 4rem;
+}
+.textoprojeto{
+  text-indent: 3rem;
   text-align: justify;
 }
 .videoprojeto{
@@ -218,7 +220,7 @@ ul{
 @media(max-width: 768px){
   #banner{
     width: 100%;
-    height: 76rem;
+    height: 81rem;
     background-color:var(--orange-dark-color);
   }
 
@@ -241,7 +243,7 @@ ul{
 
   #servicos{
     margin-top: 2rem;
-    height: 46rem;
+    height: 52rem;
 
   }
 
